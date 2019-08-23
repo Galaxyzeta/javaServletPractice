@@ -1,0 +1,63 @@
+.loadingMask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.statbox{
+    width: 45%;
+    padding: 5px;
+    background-color: lightgray;
+    min-height: 40%;
+}
+.itemchart{
+    margin: auto;
+    width: 80%;
+}
+.console{
+    float: top;
+    margin: auto;
+    width: 80%;
+    height: 20%;
+}
+.statColumn{
+    float: left;
+    width: 50%;
+}
+.operationPanel{
+    float: left;
+}
+
+.lifebarBack{
+    height: 16px;
+    width: 128px;
+    background-color: grey;
+}
+
+.lifebarDecrease{
+    height: 80%;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: crimson;
+}
+
+.lifebarAdd{
+    height: 80%;
+    width: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.lifebarAdd#playerStep{
+    background-color: greenyellow;
+}
+
+.lifebarAdd#playerNext{
+    background-color: aqua;
+}
